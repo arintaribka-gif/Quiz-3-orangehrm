@@ -73,6 +73,7 @@ describe('Verifikasi fungsi Login', () => {
 
     //cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
     //cy.get('[name="username"]').type(username)
+    //cy.get('[name="password"]').type(password)
     //cy.get('button[type="submit"]').click()
     //cy.url().should('include', pathHarapan)
 })
