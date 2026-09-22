@@ -71,9 +71,8 @@ describe('Verifikasi fungsi Login', () => {
         loginPage.VerifikasiElemenHalamanLogin()
     })
 
-    //cy.url().should('include','tory')
-    //cy.visit('https://opensource-demo.orangehrmlive.com/')
-    //cy.get('[name="username"]').type('Admin')
+    //cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+    //cy.get('[name="username"]').type(username)
     //cy.get('button[type="submit"]').click()
-    //cy.url().should('include','tory')
+    //cy.url().should('include', pathHarapan)
 })
