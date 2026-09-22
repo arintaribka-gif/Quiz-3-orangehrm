@@ -1,0 +1,8 @@
+{
+  "usernameValid": "Admin",
+  "passwordValid": "admin123",
+  "usernameInvalid": "notfound",
+  "passwordInvalid": "notfounded",
+  "usernameKosong": "_",
+  "passwordKosong": "_"
+}

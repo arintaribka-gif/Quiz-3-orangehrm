@@ -10,7 +10,7 @@ describe('Intercept', () => {
 
   it('INT-002 - Login dengan Username yang belum terdaftar', () => {
     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-    cy.get('[name="username"]').type('notfound')
+    cy.get('[name="username"]').type('notfound');
     cy.get('[name="password"]').type('admin123')
     cy.intercept('POST', '**/auth/validate').as('loginInvalidUser')
     cy.get('button[type="submit"]').click()

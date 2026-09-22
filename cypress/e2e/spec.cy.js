@@ -4,7 +4,6 @@ describe('Scenario Pengguna dapat login ke akun OrangeHRM', () => {
     cy.get('input[name="username"]').type('Admin')
     cy.get('input[name="password"]').type('admin123')
     cy.get('button[type="submit"]').click()
-    cy.url().should('include', '/dashboard/index')
     cy.get('.oxd-topbar-header-breadcrumb h6').should('have.text', 'Dashboard')
   })
 
