@@ -1,8 +1,8 @@
 {
-  "usernameValid": "Admin",
-  "passwordValid": "admin123",
-  "usernameInvalid": "notfound",
-  "passwordInvalid": "notfounded",
-  "usernameKosong": "_",
-  "passwordKosong": "_"
+    "usernameValid": "Admin",
+    "passwordValid": "admin123",
+    "usernameInvalid": "notfound",
+    "passwordInvalid": "notfounded",
+    "usernameKosong": "_",
+    "passwordKosong": "_"
 }
